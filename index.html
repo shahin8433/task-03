@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-3</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[url(./img/bg-image2.jpg)] bg-cover bg-center h-screen">
+    <div class="mx-auto px-4 md:px-36">
+      <nav class="flex flex-col justify-between gap-3 mt-3 md:flex-row">
+        <div class="flex items-center gap-x-3">
+          <img class="rounded-md w-12 md:w-20" src="./img/icon/weather-icon.webp" alt="Logo" />
+          <div class="font-semibold md:text-xl lg:text-white">
+            <h1 class="-mb-1">Weather</h1>
+            <h1>Dashboard</h1>
+          </div>
+        </div>
+        <div class="relative">
+          <input
+            class="px-2 py-2 rounded-md bg-slate-500 placeholder:text-white w-full
+            md:px-10 "
+            type="text"
+            name=""
+            id=""
+            placeholder="Search Location"
+          />
+          <i
+            class="fa-solid fa-magnifying-glass absolute right-3 top-3 text-white"
+          ></i>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <div class="flex flex-col  bg-slate-500 bg-opacity-50 text-white px-5 py-4 my-12 rounded-xl md:flex-row md:gap-x-16 justify-end md:p-10 md:absolute right-20 md:py-20 md:w-10/12 md:mt-36 lg:mt-10 lg:w-1/2 lg:justify-between lg:px-10 lg:mr-24">
+        <div class="flex flex-col gap-y-3 md:gap-y-5">
+          <i class="fa-solid fa-cloud text-3xl"></i>
+          <h1 class="text-6xl md:text-8xl">25°</h1>
+          <div>
+            <h1 class="text-3xl "> <span><i class="fa-solid fa-location-dot mr-3"></i></span>Anekal</h1>
+          </div>
+          <p class="md:text-xl">9:41 AM - Tuesday, January 23, 2024</p>
+        </div>
+        <div class="flex flex-col gap-y-3 mt-7 md:gap-y-8">
+          <h1 class="font-semibold text-xl md:text-2xl">THE CLIMATE IS MIST</h1>
+          <div class="temp">
+            <p>Temp max</p>
+          <div class="icon">
+            <p>25.93°</p>
+            <i class="fa-solid fa-temperature-half text-red-300"></i>
+          </div>
+          </div>
+          <div class="temp">
+            <p>Temp min</p>
+           <div class="icon">
+            <p>22.07°</p>
+            <i class="fa-solid fa-temperature-half text-blue-400"></i>
+           </div>
+          </div>
+          <div class="temp">
+            <p>Humadity</p>
+            <div class="icon">
+              <p>51%</p>
+              <i class="fa-solid fa-droplet"></i>
+            </div>
+          </div>
+          <div class="temp">
+            <p>Cloudy</p>
+            <div class="icon">
+              <p>2%</p>
+              <i class="fa-solid fa-cloud-sun-rain"></i>
+            </div>
+          </div>
+          <div class="temp">
+            <p>Wind</p>
+            <div class="icon">
+              <p>3.6km/h</p>
+              <i class="fa-solid fa-wind"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
